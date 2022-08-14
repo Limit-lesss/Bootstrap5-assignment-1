@@ -14,9 +14,6 @@
 a{
        text-decoration: none;
 }
-li{
-       margin-bottom: 5px;
-}
 
 @media(max-width:768px){
        .box1 ,.box2,.box3{
