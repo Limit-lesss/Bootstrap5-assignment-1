@@ -14,7 +14,12 @@
 a{
        text-decoration: none;
 }
-
+.border_right{
+       border-right: 1px solid rgba(128, 128, 128, 0.122);
+}
+.border_left{
+       border-left: 1px solid rgba(128, 128, 128, 0.122);
+}
 @media(max-width:768px){
        .box1 ,.box2,.box3{
               flex-direction: column;
@@ -22,5 +27,8 @@ a{
        .foot1{
               flex-direction: column;
               align-items: center;
+       }
+       .border_right, .border_left{
+              border: none;
        }
 }
