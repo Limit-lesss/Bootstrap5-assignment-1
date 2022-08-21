@@ -1,5 +1,11 @@
 #navBar,.breadcrumb{
-       background-color:#FFDEAD;
+       background-color:#1b0b6acf;
+}
+.navbar-toggler .navbar-toggler-icon {
+       display: block;
+       width: 20px;
+       height: 15px;
+       border-radius: 1px;
 }
 .box1{
        border-bottom: .2px solid rgba(96, 90, 90, 0.16);
